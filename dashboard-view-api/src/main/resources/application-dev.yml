@@ -1,0 +1,10 @@
+
+server:
+  port: 8081
+# elasticsearch 配置
+#spring:
+#  data:
+#    elasticsearch:
+#      cluster-nodes: 116.62.11.42:9200,116.62.11.42:9201
+logging:
+  config: classpath:logback.xml
